@@ -30,6 +30,11 @@ usage
 A collection of tools to help with your pivotal workflow
 
 
+SSL Warning on Mac OSX
+-----
+If you see error like `sl_.py:90: InsecurePlatformWarning: A true SSLContext object is not available`, run
+`sudo pip install requests[security]` might fix it.
+
 changelog
 ---------------
 List out projects stories that are delivered or finished (not accepted)
